@@ -1,6 +1,6 @@
 {
-  "name": "starwars-names",
-  "version": "1.0.0",
+  "name": "starwars-names-riz",
+  "version": "1.1.0",
   "description": "star wars ",
   "main": "src/index.js",
   "scripts": {
