@@ -4,7 +4,7 @@ var expect = require('chai').expect;
 describe('starwars-names', function(){
 describe('all', function () {
 	
-    it('should do what...', function () {
+    it('should do what..', function () {
     	
     
 	expect(starWars.all).to.satisfy(isArrayOfStrings);
