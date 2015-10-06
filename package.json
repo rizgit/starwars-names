@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rizwan-amp/starwars-names.git"
+    "url": "git+https://github.com/rizgit/starwars-names.git"
   },
   "keywords": [
     "random",
@@ -18,9 +18,9 @@
   "author": "Rizwan Ahamed <rizwan@rizwan.in>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rizwan-amp/starwars-names/issues"
+    "url": "https://github.com/rizgit/starwars-names/issues"
   },
-  "homepage": "https://github.com/rizwan-amp/starwars-names#readme",
+  "homepage": "https://github.com/rizgit/starwars-names#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
