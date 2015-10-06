@@ -1,14 +1,16 @@
 {
   "name": "starwars-names-riz",
-  "version": "1.2.0-beta.0",
+  "version": "0.0.0-semantically-released",
   "description": "star wars ",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -W"
+    "commit" : "git-cz",
+    "test": "mocha src/index.test.js -W",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rizgit/starwars-names.git"
+    "url": "https://github.com/rizgit/starwars-names.git"
   },
   "keywords": [
     "random",
@@ -26,6 +28,12 @@
   },
   "devDependencies": {
     "chai": "3.3.0",
-    "mocha": "2.3.3"
+    "commitizen": "1.0.5",
+    "cz-conventional-changelog": "1.1.2",
+    "mocha": "2.3.3",
+    "semantic-release": "^4.3.5"
   }
+  "czConfig" : {
+     "path" : "node_modules/cz-conventional-changelog"
+   }
 }
